@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:Label text="Blue: 0" name="L_BlueTeam" parse-escape-sequences="true" style="top: 0; left: auto; position: absolute; right: 0; -unity-text-outline-width: 0.5px; font-size: 24px; -unity-text-outline-color: rgb(0, 0, 0); color: rgb(4, 0, 255); -unity-font-style: bold;"/>
+        <ui:Label text="Red: 0" name="L_RedTeam" emoji-fallback-support="false" style="right: auto; top: 0; position: absolute; left: 0; font-size: 24px; color: rgb(255, 0, 0); -unity-text-outline-width: 0.5px; -unity-text-outline-color: rgb(0, 0, 0); -unity-font-style: bold;"/>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; align-self: center; align-items: center;">
+        <ui:Label text="Goal!!!" name="L_Goal" emoji-fallback-support="true" style="translate: -50% -50%; left: 50%; right: 50%; bottom: 50%; top: 50%; position: absolute; color: rgb(255, 255, 255); font-size: 60px; -unity-text-align: middle-center; -unity-text-outline-width: 2px; -unity-text-outline-color: rgb(0, 0, 0); -unity-font-style: bold;"/>
+    </ui:VisualElement>
+</ui:UXML>
