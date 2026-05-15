@@ -1,0 +1,29 @@
+{
+    "SoccerAgent": {
+        "checkpoints": [
+            {
+                "steps": 384,
+                "file_path": "results\\Run2\\SoccerAgent\\SoccerAgent-384.onnx",
+                "reward": null,
+                "creation_time": 1778001142.5058155,
+                "auxillary_file_paths": [
+                    "results\\Run2\\SoccerAgent\\SoccerAgent-384.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 384,
+            "file_path": "results\\Run2\\SoccerAgent.onnx",
+            "reward": null,
+            "creation_time": 1778001142.5058155,
+            "auxillary_file_paths": [
+                "results\\Run2\\SoccerAgent\\SoccerAgent-384.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.6.0+cu124"
+    }
+}
